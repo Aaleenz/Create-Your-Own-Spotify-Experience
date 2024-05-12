@@ -46,3 +46,9 @@ To enhance user experience, Apache Spark will be leveraged to dynamically genera
 
 # Conclusion
 In conclusion, the Streamify project represents a significant achievement in the realm of music streaming services. By leveraging advanced technologies and methodologies, we've created a platform that not only meets user expectations. As we continue to iterate and innovate, Streamify has the potential to revolutionize the way people discover and enjoy music worldwide.
+
+# Contribution
+
+Aaleen Zainab
+Tooba Arshad
+Asma Riaz
