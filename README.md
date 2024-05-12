@@ -1,4 +1,4 @@
-# Musci recommendation system
+# Music recommendation system
 Streamify is a streamlined alternative to Spotify, featuring a music recommendation system, playback, and streaming capabilities alongside real-time suggestions derived from user activity.
 
 # Extract, Transform, Load (ETL) Pipeline
