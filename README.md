@@ -1,6 +1,10 @@
 # Streamify
 Streamify is a streamlined alternative to Spotify, featuring a music recommendation system, playback, and streaming capabilities alongside real-time suggestions derived from user activity.
 
+## Introduction
+
+Spotify is a digital music streaming service providing access to millions of songs, podcasts, and videos from artists worldwide. It employs a sophisticated music recommendation system powered by machine learning algorithms. Your final assignment is to develop Streamify, a project that emulates Spotify's functionality while incorporating cutting-edge big data technologies.
+
 # Extract, Transform, Load (ETL) Pipeline
 In this phase, the focus was on creating an Extract, Transform, Load (ETL) pipeline using the Free Music Archive (FMA) dataset to prepare the data for subsequent processing and analysis.
 
