@@ -1,0 +1,20 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Music Streaming</h1>
+        <audio controls>
+            <source src="{{ url_for('stream_audio') }}" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>
+
