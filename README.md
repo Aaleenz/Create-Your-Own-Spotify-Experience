@@ -1,7 +1,7 @@
 # Streamify
 Streamify is a streamlined alternative to Spotify, featuring a music recommendation system, playback, and streaming capabilities alongside real-time suggestions derived from user activity.
 
-## Introduction
+# Introduction
 
 Spotify is a digital music streaming service providing access to millions of songs, podcasts, and videos from artists worldwide. It employs a sophisticated music recommendation system powered by machine learning algorithms. Your final assignment is to develop Streamify, a project that emulates Spotify's functionality while incorporating cutting-edge big data technologies.
 
@@ -44,7 +44,6 @@ The application provides an intuitive and visually appealing interface for users
 
 ## Real-Time Music Recommendations
 To enhance user experience, Apache Spark will be leveraged to dynamically generate music recommendations in real-time. Historical playback data will be analyzed to provide personalized suggestions to users based on their preferences and listening habits. This recommendation engine will operate concurrently in the background of the web application, ensuring that users receive relevant and timely suggestions without any interruptions.
-
 
 # Contribution
 
