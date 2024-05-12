@@ -1,10 +1,7 @@
-# Create-Your-Own-Spotify-Experience
+# Musci recommendation system
 Streamify is a streamlined alternative to Spotify, featuring a music recommendation system, playback, and streaming capabilities alongside real-time suggestions derived from user activity.
 
-## Introduction
-Spotify is a digital music streaming service providing access to millions of songs, podcasts, and videos from artists worldwide. It employs a sophisticated music recommendation system powered by machine learning algorithms. Our final assignment was to develop Streamify, a project that emulates Spotify's functionality while incorporating cutting-edge big data technologies.
-
-# Phase #1: Extract, Transform, Load (ETL) Pipeline
+# Extract, Transform, Load (ETL) Pipeline
 In this phase, the focus was on creating an Extract, Transform, Load (ETL) pipeline using the Free Music Archive (FMA) dataset to prepare the data for subsequent processing and analysis.
 
 ## Objective
@@ -19,7 +16,7 @@ To extract meaningful information from the audio tracks, we employed various tec
 ## Storage
 After extracting the relevant audio features, we stored the transformed data in MongoDB, a NoSQL database known for its scalability and accessibility. MongoDB was chosen for its ability to handle large volumes of data efficiently, making it well-suited for storing the FMA dataset.
 
-# Phase #2: Music Recommendation Model
+# Music Recommendation Model
 In this phase, the objective was to train a music recommendation model using Apache Spark after storing the data in MongoDB. Various algorithms and methodologies were explored to achieve this goal.
 
 ## Objective
@@ -35,17 +32,15 @@ Several algorithms were considered for building the recommendation model:
 . Alternating Least Squares (ALS)  
 . Local Sensitive Hashing (LSH)
 
-# Phase #3: Deployment
+# Deployment
 In this phase, the objective was to deploy the trained music recommendation model onto a web application, specifically designed as a streaming service. The deployment process involves crafting an interactive and user-friendly web interface, integrating real-time music recommendations using Apache Spark, and ensuring seamless operation of the application.
 
 ## Web Application Development
-The application provides an intuitive and visually appealing interface for users to browse, search, and play music seamlessly. Frameworks such as Flask or Django can be utilized for this purpose, allowing for rapid development and customization of the web interface.
+The application provides an intuitive and visually appealing interface for users to browse, search, and play music seamlessly. 
 
 ## Real-Time Music Recommendations
 To enhance user experience, Apache Spark will be leveraged to dynamically generate music recommendations in real-time. Historical playback data will be analyzed to provide personalized suggestions to users based on their preferences and listening habits. This recommendation engine will operate concurrently in the background of the web application, ensuring that users receive relevant and timely suggestions without any interruptions.
 
-# Conclusion
-In conclusion, the Streamify project represents a significant achievement in the realm of music streaming services. By leveraging advanced technologies and methodologies, we've created a platform that not only meets user expectations. As we continue to iterate and innovate, Streamify has the potential to revolutionize the way people discover and enjoy music worldwide.
 
 # Contribution
 
