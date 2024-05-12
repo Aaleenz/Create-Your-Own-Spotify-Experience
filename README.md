@@ -31,10 +31,9 @@ Apache Spark was leveraged for its distributed computing capabilities, allowing 
 
 ## Algorithms
 Several algorithms were considered for building the recommendation model:
+### Local Sensitive Hashing (LSH)
+LSH is employed for approximate nearest neighbor search, which can be useful in recommendation systems for finding similar items or users efficiently. In the context of music recommendation, LSH can help identify tracks with similar audio features or user preferences.
 
-. Collaborative Filtering  
-. Alternating Least Squares (ALS)  
-. Local Sensitive Hashing (LSH)
 
 # Deployment
 In this phase, the objective was to deploy the trained music recommendation model onto a web application, specifically designed as a streaming service. The deployment process involves crafting an interactive and user-friendly web interface, integrating real-time music recommendations using Apache Spark, and ensuring seamless operation of the application.
