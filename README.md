@@ -31,8 +31,8 @@ Apache Spark was leveraged for its distributed computing capabilities, allowing 
 ## Algorithms
 Several algorithms were considered for building the recommendation model:
 
-. Collaborative Filtering 
-. Alternating Least Squares (ALS) 
+. Collaborative Filtering  
+. Alternating Least Squares (ALS)  
 . Local Sensitive Hashing (LSH)
 
 # Phase #3: Deployment
