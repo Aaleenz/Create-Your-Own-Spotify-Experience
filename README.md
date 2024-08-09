@@ -45,7 +45,5 @@ The application provides an intuitive and visually appealing interface for users
 To enhance user experience, Apache Spark will be leveraged to dynamically generate music recommendations in real-time. Historical playback data will be analyzed to provide personalized suggestions to users based on their preferences and listening habits. This recommendation engine will operate concurrently in the background of the web application, ensuring that users receive relevant and timely suggestions without any interruptions.
 
 # Contribution
-
-Aaleen Zainab  
 Tooba Arshad  
 Asma Riaz
